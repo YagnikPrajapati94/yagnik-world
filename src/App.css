@@ -1,0 +1,89 @@
+
+body{
+  /* background-image: url("https://marveltheme.com/tf/html/bentofolio-html/assets/img/bg/banner-shape-1.png"); */
+  /* background-color: #f3f4f6 !important  ; */
+  background-color: #0E1018 !important;
+  transition: all 0.5s ease-in-out;
+  font-family: "Bricolage Grotesque", sans-serif;
+ 
+}
+.nav-box{
+  /* overflow: hidden !important;
+  z-index: 1000 !important; */
+  background-color: #0E1018 !important;
+
+}
+ 
+
+
+.navbar-tabs .nav-link{
+  transition: all 0.3s ease-in-out !important;
+  font-size: 17px !important;
+  align-items: center !important;
+  /* color: #576076 !important; */
+}
+.navbar-tabs .nav-link svg{
+ width: 20px !important;
+ height: 20px !important;
+}
+.navbar-tabs .nav-link:hover{
+ background-color: #0E1018 !important;
+  color: white !important;
+}
+.active{
+  background-color: #0E1018 !important;
+  color: white !important;
+}
+.noActive{
+  color: #576076 !important;
+}
+.lets-talk{
+  transition:  all 0.3s ease-in-out !important;
+  background-color: #0E1018 !important;
+  padding: 10px 20px !important;
+}
+.lets-talk:hover{
+  background-color: #0D6EFD !important;
+  color: #fff !important;
+}
+
+.skill-icon {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
+.bg-service{
+  background-color: #1A1F2C !important;
+}
+.education-box{
+  background-color: #0E1018 !important;
+  border: 1px solid #0E1018;
+  transition: all 0.4s ease-in-out !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+}
+.education-box svg{
+  color: white !important;
+  background-color: black !important; 
+  padding: 8px !important;
+  transition: all 0.4s ease-in-out !important;
+
+}
+.education-box:hover{
+  border: 1px solid #0D6EFD !important;
+  background-color: black !important;
+
+}
+.education-box:hover svg{
+  background-color: #0E1018 !important;
+}
+.offcanvas{
+  transition: all 0.5s ease-in-out !important;
+}
+
+
