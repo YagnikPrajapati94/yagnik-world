@@ -85,5 +85,51 @@ body{
 .offcanvas{
   transition: all 0.5s ease-in-out !important;
 }
+input::placeholder, textarea::placeholder{
+  color: #576076 !important;
+}
+input{
+  padding: 15px !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+textarea{
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+form{
+  background-color: #0E1018 !important;
+}
+input:focus , textarea:focus{
+  border: 1px solid #0D6EFD !important;
+}
+/* Custom Scrollbar for Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* match dark background */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* subtle thumb */
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* lighter on hover */
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1a1a1a;
+}
+
+
 
 

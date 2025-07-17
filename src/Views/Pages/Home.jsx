@@ -99,7 +99,7 @@ const Home = () => {
                                 Let's👋
                                 Work Together
                             </p>
-                            <Link data-aos="slide-right" data-aos-delay="700" to="/contact" className='ps-2 nav-link pb-2 text-primary text-decoration-underline '>Let's Talk <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            <Link to="/contact" data-aos="slide-right" data-aos-delay="700" className='ps-2 nav-link pb-2 text-primary text-decoration-underline '>Let's Talk <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                             >

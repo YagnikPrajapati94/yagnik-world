@@ -2,6 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import SideMenuBar from '../Component/SideMenuBar';
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -110,16 +111,17 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <button className="btn d-lg-block d-none  lets-talk   d-flex align-items-center text-light ms-auto me-lg-0 me-2">
-                        Let's Talk
-                        <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                        >
-                            <path d="M16 7h6v6" />
-                            <path d="m22 7-8.5 8.5-5-5L2 17" />
-                        </svg>
-                    </button>
+                    <a
+                        href="https://wa.me/916354864623?text=Hello%20Yagnik!%20I%20visited%20your%20portfolio%20and%20want%20to%20discuss%20a%20project."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn d-lg-block d-none lets-talk d-flex align-items-center text-light ms-auto me-lg-0 me-2 whatsapp-btn"
+                    >
+                        <span className='d-xl-inline d-none'>Chat on WhatsApp</span>
+                        <FaWhatsapp className="ms-xl-2 mb-1" size={20} />
+                    </a>
+
+
 
                     <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 12h16" /><path d="M4 18h16" /><path d="M4 6h16" /></svg>

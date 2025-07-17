@@ -9,6 +9,9 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import About from './Views/Pages/About.jsx'
 import Service from './Views/Pages/Service.jsx'
+import Contact from './Views/Pages/Contact.jsx'
+import Work from './Views/Pages/Work.jsx'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   useEffect(() => {
@@ -37,8 +40,11 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Service />} />
+          <Route path='/work' element={<Work />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
+      <ToastContainer theme='colored' />
     </>
   )
 }
