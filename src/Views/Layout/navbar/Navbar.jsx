@@ -115,10 +115,10 @@ const Navbar = () => {
                         href="https://wa.me/916354864623?text=Hello%20Yagnik!%20I%20visited%20your%20portfolio%20and%20want%20to%20discuss%20a%20project."
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn d-lg-block d-none lets-talk d-flex align-items-center text-light ms-auto me-lg-0 me-2 whatsapp-btn"
+                        className="btn  rounded-3  lets-talk d-flex align-items-center text-light ms-auto me-lg-0 me-2 whatsapp-btn"
                     >
-                        <span className='d-xl-inline d-none'>Chat on WhatsApp</span>
-                        <FaWhatsapp className="ms-xl-2 mb-1" size={20} />
+                        {/* <span className='d-xl-inline d-none'>Chat on WhatsApp</span> */}
+                        <FaWhatsapp className=" " size={20} />
                     </a>
 
 
