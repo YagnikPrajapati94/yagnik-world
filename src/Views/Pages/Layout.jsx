@@ -67,8 +67,8 @@ const Layout = ({ children }) => {
                                         <code>
                                             <div data-aos="fade-up" data-aos-delay="900"><span className="text-primary">const</span> <span className="text-info">socialLinks</span> <span className="text-light">=</span> [</div>
                                             <div data-aos="fade-up" data-aos-delay="1000">&nbsp;&nbsp;&#123; platform: 'GitHub', url: <a href="https://github.com/YagnikPrajapati94" target="_blank" rel="noopener noreferrer" className="text-warning text-decoration-none">"https://.....🧐"</a> &#125;,</div>
-                                            <div data-aos="fade-up" data-aos-delay="1100">&nbsp;&nbsp;&#123; platform: 'LinkedIn', url: <a href="https://linkedin.com/in/yagnik" target="_blank" rel="noopener noreferrer" className="text-warning text-decoration-none">"https://..🧐"</a> &#125;,</div>
-                                            <div data-aos="fade-up" data-aos-delay="1200">&nbsp;&nbsp;&#123; platform: 'Twitter', url: <a href="https://twitter.com/yagnik" target="_blank" rel="noopener noreferrer" className="text-warning text-decoration-none">"https://..🧐"</a> &#125;</div>
+                                            <div data-aos="fade-up" data-aos-delay="1100">&nbsp;&nbsp;&#123; platform: 'LinkedIn', url: <a href="https://www.linkedin.com/in/yagnik-prajapati-0b28b9262/" target="_blank" rel="noopener noreferrer" className="text-warning text-decoration-none">"https://..🧐"</a> &#125;,</div>
+                                            <div data-aos="fade-up" data-aos-delay="1200">&nbsp;&nbsp;&#123; platform: 'Twitter', url: <a href="https://x.com/YagnikP09" target="_blank" rel="noopener noreferrer" className="text-warning text-decoration-none">"https://..🧐"</a> &#125;</div>
                                             <div data-aos="fade-up" data-aos-delay="1300">];</div>
                                         </code>
                                     </div>
